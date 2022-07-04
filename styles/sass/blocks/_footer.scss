@@ -1,0 +1,87 @@
+.footer {
+    background-color: #52503B;
+    padding: 100px 136px 110px 136px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+
+    &__form {
+        
+        &-email {
+            width: 576px;
+            height: 52px;
+            border-radius: 8px;
+            outline: none;
+            border: 1px solid #E5E7EB;
+        }
+
+        &-btn--wrapper {
+            right: 75px;
+            width: 61px;
+            height: 30px;
+            border-radius: 10%;
+            background-color: #52503B;
+            border: 1px solid #52503B;
+        }
+    }
+}
+
+.pages-item {
+
+    &__title {
+        @include fontStyle(Montserrat, 14px, 400);
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__link {
+        @include fontStyle(Montserrat, 14px, 400);
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-bottom: 10px;
+
+        :hover {
+            color: #E08631;
+        }
+
+        :visited {
+            color: #FFFFFF;
+        }
+    }
+}
+
+.footer-social {
+
+    &__text {
+        @include fontStyle(Montserrat, 14px, 400);
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__social-icons-wrapper {
+        display: flex;
+        gap: 27px;
+    }
+}
+
+.social-icons__icon {
+    width: 32px;
+    height: 32px;
+
+    &--fb {
+        width: 18px;
+        height: 32px;
+    }
+
+    &--ab {
+        width: 30px;
+        height: 32px;
+    }
+}
+

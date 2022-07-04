@@ -1,0 +1,52 @@
+.special-together {
+    padding: 100px 146px 126px 136px;
+
+    &__container {
+        display: flex;
+        gap: 105px;
+    }
+
+    &__main-title {
+        @include fontStyle(Montserrat, 32px, 400);
+        color: #52503B;
+        margin-bottom: 14px;
+    }
+
+    &__sub-title {
+        @include fontStyle(Montserrat, 16px, 400);
+        color: #52503B;
+        line-height: 24px;
+    }
+
+    &__list--wrapper {
+        display: flex;
+        gap: 37px;  
+    }
+}
+
+.together-list {
+
+    &__together-item {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 60px;
+
+            :last-child {
+                margin-bottom: 0px;
+            }
+    }
+}
+
+.together-item {
+
+    &__icon--wrapper {
+        width: 36px;
+        height: 36px;
+    }
+
+    &__text {
+        @include fontStyle(Montserrat, 14px, 400);
+        color: #52503B;
+        line-height: 20px;
+    }
+}

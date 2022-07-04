@@ -1,0 +1,56 @@
+.special {
+    padding: 100px 150px 109px 136px;
+    width: 100%;
+
+    &__main-title {
+        @include fontStyle(Montserrat, 32px, 400);
+        color: #52503B;
+        margin-bottom: 14px;
+    }
+
+    &__sub-title {
+        @include fontStyle(Montserrat, 14px, 400);
+        color: #52503B;
+        text-align: start;
+        padding-right: 550px;
+        margin-bottom: 30px;
+    }
+
+    &__special-lists {
+
+        &--wrapper {
+            display: flex;
+            gap: 41px;
+        }
+    }
+}
+
+.special-lists__item-descr {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 42px;
+}
+
+.item-descr {
+
+    &__icon--wrapper {
+        width: 36px;
+        height: 36px;
+    }
+
+    &__icon--air {
+        width: 36px;
+        height: 18px;
+        padding: 5px 0px;
+    }
+
+    &__title {
+        @include fontStyle(Montserrat, 14px, 400);
+        color: #52503B;
+    }
+
+    &__text {
+        @include fontStyle(Montserrat, 14px, 400);
+        color: #333333;
+    }
+}

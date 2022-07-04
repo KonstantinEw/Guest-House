@@ -1,0 +1,57 @@
+.sleeping-arrangements {
+    height: 100%;
+    width: 100%;
+    background-color: #FAF8F0;
+    padding: 100px 138px 99px 136px;
+
+    &__main-title {
+        @include fontStyle(Montserrat, 32px, 400);
+        color: #52503B;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+
+    &__sub-title {
+        @include fontStyle(Montserrat, 16px, 400);
+        color: #52503B;
+        text-align: center;
+        line-height: 24px;
+        padding: 0 240px;
+        margin-bottom: 30px;
+    }
+}
+
+.arrangements-list {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+
+        &-icon {
+
+            &--wrapper {
+                margin: 0 auto;
+                height: 65px;
+                width: 45px;
+                margin-bottom: 12px;
+            }
+        }
+
+        &-title {
+            @include fontStyle(Montserrat, 16px, 400);
+            text-align: center;
+            color: #52503B;
+        }
+
+        &-text {
+            @include fontStyle(Montserrat, 14px, 400);
+            text-align: center;
+            color: #52503B;
+        }
+    }
+}

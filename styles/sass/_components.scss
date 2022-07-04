@@ -1,0 +1,10 @@
+.separator {
+    width: 42px;
+    height: 8px;
+    background-color: #E08631;
+    margin-bottom: 30px;
+
+    &--center {
+        margin: 0 auto 30px auto;
+    }
+}

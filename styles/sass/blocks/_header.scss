@@ -1,0 +1,55 @@
+.header {
+    background-color: #52503B;
+
+        &__container {
+            display: flex;
+            justify-content: space-between;
+            padding: 18px 138px 18px 120px;
+        }
+
+        &__logo {
+            width: 128px;
+            height: 45px;
+
+            &-img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &__nav-list {
+            display: flex;
+            gap: 24px;
+            color: #fff;
+            @include fontStyle(Montserrat, 16px, 400);
+            padding: 10px;
+        }
+
+        &__btn {
+            width: 100%;
+            height: 100%;
+            @include fontStyle(Montserrat, 16px, 400);
+            border-radius: 6px;
+            border: 1px solid #FFFFFF;
+            background-color:#FFFFFF;
+        }
+
+        &__btn:hover {
+            background-color: #52503B;
+            border: 2px solid #FFFFFF;
+            color:#FFFFFF;
+            cursor: pointer;
+        }
+
+        &__btn:active {
+            background-color: #E08631;
+            border: 2px solid #FFFFFF;
+            color:#FFFFFF;
+            cursor: pointer;
+        }
+
+        &__btn--wrapper {
+            width: 117px;
+            height: 42px;
+        }
+    }

@@ -1,0 +1,17 @@
+.definition {
+    padding: 100px 77px 0px 77px;
+
+    &__title {
+        @include fontStyle (Montserrat, 96px, 700);
+        text-align: center;
+        color: #52503B;
+        line-height: 96px;
+        margin-bottom: 140px;
+    }
+
+    &__image {
+        margin: 0 auto;
+        width: 100vw;
+        height: 660px;
+    }
+}
