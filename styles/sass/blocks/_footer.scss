@@ -26,6 +26,15 @@
             border: 1px solid #52503B;
         }
     }
+
+    &__pages {
+        margin-right: 215px;
+        margin-bottom: 48px;
+    }
+
+    &__footer-social {
+        margin-right: 150px;
+    }
 }
 
 .pages-item {
@@ -85,3 +94,53 @@
     }
 }
 
+.newsletter-title {
+
+    &__main-title {
+        @include fontStyle(Montserrat, 14px, 400);
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__sub-title {
+        @include fontStyle(Montserrat, 14px, 400);
+        color: #FFFFFF;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.footer-copy {
+
+    &__logo {
+        width: 200px;
+        height: 70px;
+        margin: 0 auto 20px auto;
+
+
+        &-img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__copyright {
+        @include fontStyle(Montserrat, 14px, 400);
+        color: #FFFFFF;
+        line-height: 20px;
+        margin-bottom: 20px;
+
+        &--wrapper {
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    &__contact {
+        @include fontStyle(Montserrat, 14px, 400);
+        color: #FFFFFF;
+        line-height: 20px;
+    }
+}
