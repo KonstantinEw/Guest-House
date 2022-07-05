@@ -133,7 +133,7 @@ img {
 .banner {
   width: 100%;
   min-height: 100vh;
-  background-image: url(/styles/assets/image/Banner__background.jpg);
+  background-image: url(../styles/assets/image/Banner__background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
