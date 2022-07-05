@@ -20,8 +20,6 @@
         &__nav-list {
             display: flex;
             gap: 24px;
-            color: #fff;
-            @include fontStyle(Montserrat, 16px, 400);
             padding: 10px;
         }
 
@@ -53,3 +51,18 @@
             height: 42px;
         }
     }
+
+.nav-list {
+
+    &__nav-link {
+        text-decoration: none;
+        color: #fff;
+        transition: 0.3s ease-in-out;
+        @include fontStyle(Montserrat, 16px, 400);
+
+        &:hover {
+            color: #E08631;
+            text-decoration: none;
+        }
+    }
+}

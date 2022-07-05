@@ -88,10 +88,6 @@ img {
 .header__nav-list {
   display: flex;
   gap: 24px;
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 400;
   padding: 10px;
 }
 .header__btn {
@@ -119,6 +115,19 @@ img {
 .header__btn--wrapper {
   width: 117px;
   height: 42px;
+}
+
+.nav-list__nav-link {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+}
+.nav-list__nav-link:hover {
+  color: #E08631;
+  text-decoration: none;
 }
 
 .banner {
@@ -191,6 +200,7 @@ img {
   font-weight: 400;
   line-height: 20px;
   color: #333333;
+  padding: 0 auto;
 }
 .banner-subscr__text-column--btn {
   margin-bottom: 41px;
@@ -205,11 +215,13 @@ img {
   border-radius: 6px;
   border: 4px solid #52503B;
   background-color: #FFFFFF;
+  transition: 0.3s ease-in-out;
 }
 .subscr-btn:hover {
   border: 4px solid #52503B;
   background-color: #52503B;
   color: #FFFFFF;
+  cursor: pointer;
 }
 .subscr-btn:active {
   background-color: #E08631;
@@ -501,11 +513,13 @@ img {
   border-radius: 6px;
   border: 4px solid #52503B;
   background-color: #FFFFFF;
+  transition: 0.3s ease-in-out;
 }
 .contact-btn:hover {
   border: 4px solid #52503B;
   background-color: #52503B;
   color: #FFFFFF;
+  cursor: pointer;
 }
 .contact-btn:active {
   background-color: #E08631;
@@ -525,20 +539,38 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.footer-box__form-email {
+.footer-box__form {
   width: 576px;
   height: 52px;
+  position: relative;
+}
+.footer-box__form-email {
+  width: 100%;
+  height: 100%;
   border-radius: 8px;
   outline: none;
   border: 1px solid #E5E7EB;
+  padding: 16px 30px;
 }
-.footer-box__form-btn--wrapper {
-  right: 75px;
-  width: 61px;
-  height: 30px;
-  border-radius: 10%;
+.footer-box__form-btn {
+  width: 100%;
+  height: 100%;
+  padding: 0 5px;
+  border-radius: 10px;
   background-color: #52503B;
   border: 1px solid #52503B;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.footer-box__form-btn--wrapper {
+  width: 61px;
+  height: 30px;
+  position: absolute;
+  right: 8px;
+  bottom: 10px;
 }
 .footer-box__pages {
   margin-right: 215px;
@@ -564,13 +596,11 @@ img {
   color: #FFFFFF;
   text-decoration: none;
   margin-bottom: 10px;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-.pages-item__link :hover {
+.pages-item__link:hover {
   color: #E08631;
-}
-.pages-item__link :visited {
-  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .footer-social__text {

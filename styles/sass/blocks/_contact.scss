@@ -31,11 +31,13 @@
     border-radius: 6px;
     border: 4px solid #52503B;
     background-color:#FFFFFF;
+    transition: 0.3s ease-in-out;
 
     &:hover {
         border: 4px solid #52503B;
         background-color:#52503B;
         color:#FFFFFF;
+        cursor: pointer;
     }
 
     &:active {
