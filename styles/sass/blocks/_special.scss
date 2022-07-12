@@ -17,6 +17,9 @@
     }
 
     &__special-lists {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
 
         &--wrapper {
             display: flex;

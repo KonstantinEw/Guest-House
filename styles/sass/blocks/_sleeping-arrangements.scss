@@ -24,8 +24,9 @@
 .arrangements-list {
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 72px;
+    // gap: 72px;
 
     &__item {
         display: flex;

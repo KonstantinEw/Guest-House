@@ -279,8 +279,8 @@ img {
 .arrangements-list {
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 72px;
 }
 .arrangements-list__item {
   display: flex;
@@ -327,6 +327,11 @@ img {
   text-align: start;
   padding-right: 550px;
   margin-bottom: 30px;
+}
+.special__special-lists {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .special__special-lists--wrapper {
   display: flex;
@@ -401,6 +406,7 @@ img {
 .testimonials__review--wrapper {
   display: flex;
   gap: 20px;
+  margin-bottom: 40px;
 }
 .testimonials__review-stars {
   display: flex;
@@ -429,6 +435,18 @@ img {
   font-weight: 400;
   color: #333333;
   padding-left: 10px;
+}
+
+.arrow {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #52503B;
+  border-radius: 50%;
+}
+.arrow__wrapper {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
 }
 
 .special-together {
