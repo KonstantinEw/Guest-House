@@ -27,6 +27,7 @@
 .contact-btn {
     width: 100%;
     height: 100%;
+    overflow: hidden;
     @include fontStyle(Montserrat, 16px, 400);
     border-radius: 6px;
     border: 4px solid #52503B;

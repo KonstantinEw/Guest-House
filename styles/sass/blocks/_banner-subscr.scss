@@ -27,12 +27,13 @@
 
 .subscr-btn {
     width: 100%;
-    height: 100%;
+    padding: 10px 0px;
     @include fontStyle(Montserrat, 16px, 400);
     border-radius: 6px;
     border: 4px solid #52503B;
     background-color:#FFFFFF;
     transition: 0.3s ease-in-out;
+    overflow: hidden;
 
     &:hover {
         border: 4px solid #52503B;

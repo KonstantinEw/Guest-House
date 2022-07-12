@@ -208,7 +208,7 @@ img {
 
 .subscr-btn {
   width: 100%;
-  height: 100%;
+  padding: 10px 0px;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
@@ -216,6 +216,7 @@ img {
   border: 4px solid #52503B;
   background-color: #FFFFFF;
   transition: 0.3s ease-in-out;
+  overflow: hidden;
 }
 .subscr-btn:hover {
   border: 4px solid #52503B;
@@ -507,6 +508,7 @@ img {
 .contact-btn {
   width: 100%;
   height: 100%;
+  overflow: hidden;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
@@ -628,6 +630,14 @@ img {
 .social-icons__icon--ab {
   width: 30px;
   height: 32px;
+}
+
+.icon-airbnb, .icon-facebook, .icon-insta {
+  width: 100%;
+  height: 100%;
+}
+.icon-airbnb:hover path, .icon-facebook:hover path, .icon-insta:hover path {
+  fill: #E08631;
 }
 
 .newsletter-title__main-title {
